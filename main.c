@@ -1,6 +1,5 @@
 #include <stdio.h>
 
-// Declaration of the assembly function
 extern void read_ps_input();
 
 int main() {
