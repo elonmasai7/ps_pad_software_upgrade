@@ -24,7 +24,7 @@ int main() {
         return 1;
     }
 
-    // Claim the interface (usually 0)
+    
     if (libusb_claim_interface(dev_handle, 0) < 0) {
         fprintf(stderr, "Cannot claim interface\n");
         libusb_close(dev_handle);
