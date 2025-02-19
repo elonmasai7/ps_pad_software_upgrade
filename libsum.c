@@ -9,7 +9,7 @@ int main() {
     libusb_device_handle *dev_handle = NULL;
     int rc;
 
-    // Initialize libusb
+    
     rc = libusb_init(&ctx);
     if (rc < 0) {
         fprintf(stderr, "Failed to initialize libusb: %s\n", libusb_error_name(rc));
